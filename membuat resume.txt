@@ -1,0 +1,443 @@
+﻿WEB PROGRAMING
+BAB 1 
+(KONSEP DASAR WEB)
+* Pengertian
+Website adalah kumpulan halaman digital yang berisi informasi (teks, animasi, gambar, suara, video) yang terhubung internet dan dapat diakses siapapun
+* jenis website
+* website statis 
+Statis adalah website dengan halaman-halaman yang tidak berubah, di mana perubahan dilakukan dengan mengedit kode struktur
+*  website dinamis 
+Dinamis adalah website yang dirancang untuk diupdate sesering mungkin, biasanya dengan menggunakan halaman backend untuk mengubah konten
+*  website interaktif
+Interaktif adalah website yang memungkinkan interaksi antara pengguna, seperti forum diskusi atau blog, dengan adanya moderator yang mengatur alur diskusi.
+* pemrogaman web
+:proses pembuatan aplikasi web dengan bahasa skrip yang dapat diakses melalui web browser
+* Bahasa skrip
+* HMTL
+(digunakan untuk struktur dan konten website)
+*  PHP  
+(DIgunakan untuk logika dan interaksi website)
+* CSS
+(digunakan untuk desain dan tata letak website)
+*  JavaScript 
+            (digunakan untuk interaksi antar elemen) 
+* Istilah-Istilah dalam Pemrograman Web: 
+   *  Internet: Jaringan komputer global yang terhubung dengan TCP/IP.
+   *  WWW (World Wide Web): Kumpulan web server yang menyediakan data dan informasi. 
+   * Website: Halaman web yang dapat diakses melalui internet.
+   *  Web Server: Perangkat lunak yang menerima permintaan dan mengirimkan halaman web.
+   *  URL (Universal Resource Locator): Alamat sebuah halaman web
+   * . HTTP (Hypertext Transfer Protocol): Protokol untuk mengidentifikasi lokasi web.
+   *  DNS (Domain Name System): Sistem database untuk nama domain.
+   *  IP (Internet Protocol): Protokol untuk pengalamatan data di internet.
+   *  Hyperlink: Link yang menghubungkan satu halaman web dengan halaman lainnya. 
+   * Web Browser: Perangkat lunak untuk mengakses website.      
+*  Contoh Web Server:  
+   * XAMPP
+   *  Apache2Triad
+*   Contoh Web Browser:  
+   * Internet Explorer
+   *  Firefox 
+   * Opera 
+   * Safari 
+   * Chrome 
+*  Pengertian Struktur Navigasi:  
+Struktur navigasi adalah bagan hirarki yang menggambarkan isi dan hubungan antar halaman website.
+*  Kriteria Struktur Navigasi: 
+   *  Kebutuhan akan objek 
+   * Kemudahan pemakaian
+   *  Interaktif 
+   * Kemudahan pembuatan
+*  Jenis Struktur Navigasi:
+   *   Linier: Tampilan berurut, hanya satu halaman sebelumnya/sesudahnya.
+   *  Hirarki: Percabangan berdasarkan kriteria, Master Page (utama) dan Slave Page (pendukung).
+   *  Non-Linier: Navigasi bercabang, tidak ada tingkatan halaman. 
+   * Campuran: Gabungan dari struktur navigasi lainnya, interaksi tinggi, efisien dan menarik.
+* Pengertian Text Editor:  
+Text editor (editor teks) adalah aplikasi untuk menulis dan mengedit teks, termasuk kode program.  
+* Text Editor untuk Pemrograman Web:  
+   *  Notepad:  
+      * Artinya: Notepad adalah aplikasi bawaan Windows untuk membuat dan mengedit file teks.
+      *  Kelebihan: Gratis, mudah digunakan, sudah tersedia di Windows.
+      *  Kekurangan: Fitur terbatas, tidak cocok untuk file yang kompleks. 
+   * Notepad++:  
+      * Artinya: Editor teks gratis dan open-source dengan banyak fitur untuk programmer.
+      *  Kelebihan: Fitur lengkap, gratis, open-source.
+      *  Kekurangan: Tampilan tidak semodern Sublime Text atau Atom.
+   *  Sublime Text: 
+      *  Artinya: Editor teks berbayar dengan banyak fitur, mudah digunakan, dan memiliki banyak plugin. 
+      * Kelebihan: Fitur lengkap, mudah digunakan, banyak plugin
+      * Kekurangan: Berbayar, versi demo memiliki beberapa batasan.
+   *  Atom:
+      *  Artinya: Editor teks gratis dan open-source yang dikembangkan oleh GitHub dengan banyak plugin untuk berbagai bahasa pemrograman.
+      *  Kelebihan: Fitur lengkap, gratis, open-source, banyak plugin. 
+      * Kekurangan: Tampilan tidak semodern Sublime Text.
+
+
+
+
+
+
+BAB II 
+PENGENALAN HTML
+*  Pengertian HTML: 
+ Hypertext Markup Language (HTML) adalah bahasa pemrograman gratis yang digunakan untuk menampilkan sebuah website. HTML dikembangkan bersama-sama secara global oleh banyak orang di banyak negara. 
+*  Dokumen HTML: 
+   *  Dokumen teks yang dapat diedit oleh editor teks apapun.
+   *  Disimpan dengan ekstensi .html.
+   *  Memiliki elemen yang dikelilingi tag-teks. 
+   * Tag-teks dimulai dengan < dan diakhiri dengan >.                
+* Struktur Dasar Html
+   * Dimulai dengan tag awal
+   * Diikuti dengan isi elemen.
+   *  Diakhiri dengan tag akhir.
+   *  Tag akhir termasuk symbol / diikuti oleh tipe elemen.
+*   Contoh:
+<html>
+<head>
+<title> Judul Web </title>
+</head>
+<body>
+</body>
+</html>
+     Keterangan :
+* Tag HTML: Dimulai dan diakhiri dengan <>.
+* Tag head: 
+   * Tag sebelum body. 
+   * Dieksekusi sebelum body
+   * . Berisi informasi tentang halaman web, termasuk: 
+      * Tag <title>: Judul halaman web. Sebaiknya setiap halaman memiliki judul. Judul muncul di titlebar browser.
+
+
+* TAG
+   * Kode dalam HTML disebut tag.
+   *  Tag ditulis diapit oleh <, >, dan /.
+   *  Tag ditulis berpasangan: 
+      * Tag pembuka: tanpa /.  
+      * Tag penutup: dengan / sebelum nama tag.
+   *  Tag tidak case-sensitive, tapi standarnya huruf kecil.
+* Pentingnya Tabel: 
+   * Menampilkan teks/gambar dalam format lajur dan kolom.
+   *  Membantu layout tampilan halaman.
+   *  Mempermudah penyajian data tabular.
+*  Struktur Dasar Tabel: 
+   * Tabel: <table …> … </table> 
+   * Baris: <tr> … </tr> 
+   * Kolom: <td> … </td>
+*  Atribut Tag table: 
+   * border: Menentukan border tabel (default: 1). 
+   * width: Menentukan lebar tabel (dalam piksel, persen, atau nilai lainnya). 
+   * align: Menentukan perataan tabel (kiri, kanan, tengah). 
+   * cellpadding: Menentukan jarak antara teks dan border sel. 
+   * cellspacing: Menentukan jarak antar sel.
+   *  caption: Menambahkan judul tabel. 
+* Tag Baris dan Kolom: 
+   * <tr>: Mendefinisikan baris tabel. 
+   * <td>: Mendefinisikan kolom tabel (data sel).
+   *  <th>: Mendefinisikan header tabel (berada di dalam <tr>). 
+* Penggabungan Sel: 
+   * rowspan: Menggabungkan sel secara vertikal. 
+   * colspan: Menggabungkan sel secara horizontal.
+
+
+
+
+
+
+
+
+
+
+BAB III 
+PHP
+* Pengertian PHP:
+    PHP (Hypertext Preprocessor) adalah bahasa pemrograman server-side yang:
+   *  Dibuat oleh Rasmus Lerdrof pada tahun 1995.
+   *  Dikembangkan oleh Zend pada tahun 1997.
+   *  Diproses di sisi server. 
+   * Disematkan di dalam kode HTML.
+   *  Menghasilkan halaman web dinamis
+* Kemampuan PHP: 
+   * Mengakses database. 
+   * Membuat gambar.
+   *  Membaca dan menulis file.
+   *  Melakukan banyak hal dinamis lainnya. 
+* Cara Kerja PHP:
+   * Kode PHP diproses di server. 
+   * Hasil pengolahan dikembalikan dalam bentuk kode HTML
+   * Kode HTML ditampilkan di browser.
+*  Manfaat PHP: 
+   * Membuat halaman web lebih powerful dan dinamis. 
+   * Membangun aplikasi web lengkap, seperti web portal, e-learning, elibrary, dll. 
+* Contoh Penggunaan PHP:
+   *  Menampilkan data dari database.
+   *  Membuat formulir login.
+   *  Memproses data yang diinputkan pengguna.
+* 4 Jenis Tag PHP: 
+   * Tag Standar        <?php ?>
+   * Tag Pendek        <? ?>
+   * Tag ASP        <% %>        
+   *  Tag Script        <script language="php">...</script>
+* Perbedaan HTML dengan PHP:
+   * Html: tanpa server
+   * php: melalui server
+* Dasar-Dasar PHP
+   * Variable 
+* Pengertian: Variable adalah tempat untuk menyimpan data dalam program PHP. 
+* Variable dapat menampung berbagai jenis data, seperti angka, string, objek, array, Boolean, dan lainnya.
+*  Nilai dalam variable dapat diubah-ubah. 
+* Penamaan Variable: 
+   * Variable diawali dengan tanda dolar ($).
+   *  Nama variable dapat terdiri dari huruf, angka, dan underscore (_). 
+   * Nama variable tidak boleh mengandung spasi.
+* Tipe Data
+   * Integer: Bilangan bulat, seperti 1, 2, 3, -10, dll.
+   * Float: Bilangan desimal, seperti 3.14, 2.718, -0.5, dll
+   * String: Rangkaian karakter, seperti "Halo", "Indonesia", "12345", dll. 
+   * Boolean: Nilai true atau false. Null: Nilai kosong.
+   *  Array: Kumpulan data yang terstruktur. 
+   * Object: Sebuah instance dari sebuah class.
+   *  Resource: Sebuah pointer ke sumber daya eksternal.
+* Konstanta:
+   * Mirip dengan variable, tetapi nilainya tidak dapat diubah. 
+   * Didefinisikan dengan define("NAMA_KONSTANTA", nilai_konstanta). 
+   * Digunakan dengan mengetikkan nama konstanta. 
+   * Nama konstanta umumnya ditulis dengan huruf besar. 
+* Komentar: 
+   * Digunakan untuk menjelaskan kode program. 
+   * Tidak diproses oleh interpreter PHP.
+   *  Membantu programmer memahami kode. 
+   * Ada dua jenis komentar:
+      * Satu baris: // komentar 
+      * Multi-baris: /* komentar */
+
+
+
+
+BAB IV 
+OPERATOR
+* Mengenal Operator
+   *  Operator adalah simbol yang digunakan untuk melakukan operasi pada nilai (variable, konstanta, dll.). 
+   * Operator menghasilkan nilai baru dari nilai operand. 
+* Jenis-jenis Operator
+   *  a. Operator Aritmatika 
+      * Digunakan untuk melakukan perhitungan matematika.
+      *  Contoh: +, -, *, /, %, **.
+   * b. Operator Perbandingan 
+      * Digunakan untuk membandingkan dua nilai.
+      *  Menghasilkan nilai boolean (true/false). 
+      * Contoh: ==, !=, <, >, <=, >=.
+   * c. Operator Logika 
+      * Digunakan untuk menyusun ekspresi logika. 
+      * Menghasilkan nilai boolean (true/false).
+      *  Contoh: &&, ||, !.
+   * d. Operator String 
+      * Digunakan untuk menggabungkan string.
+      *  Simbol: ..
+
+
+
+
+BAB V 
+PENGENALAN FORM DAN PENGGUNAAN HTTP SERVER
+* Komponen Form
+   * Form HTML digunakan untuk menampung data input dari pengguna. 
+   * Form sering digunakan untuk: 
+      * Pendaftaran keanggotaan
+      *  Pemasukan kode kartu kredit
+      *  Login user 
+      * Transaksi perbelanjaan 
+      * Upload file
+* Pengolahan Data Dari Form 
+   * Form HTML dibuat dengan tag <form> dan ditutup dengan </form>.
+   * Tag <form> memiliki atribut: 
+      * action: Menentukan halaman yang akan memproses data form.
+      *  method: Menentukan cara data form dikirimkan.
+*  Metode Pengiriman Data:
+   *  GET: Data form dikirimkan bersama dengan URL.
+   *  POST: Data form dikirimkan secara terpisah.
+
+
+BAB VI 
+PERCABANGAN
+
+
+Pernyataan Seleksi Pernyataan seleksi digunakan untuk memilih pernyataan yang akan dijalankan berdasarkan kondisi tertentu. Jenis Pernyataan Seleksi: Statement IF ,Statement Switch Case
+*  a. Statement IF 
+   * 1. IF Tunggal 
+   Digunakan untuk mengeksekusi statement jika kondisinya true.
+   * 2. Pernyataan IF dan Else
+ Digunakan untuk mengeksekusi statement jika kondisinya true, dan statement lain jika kondisinya false.
+* 3. Pernyataan IF Majemuk 
+    Digunakan untuk mengeksekusi statement berdasarkan beberapa kondisi.
+* 4. Pernyataan IF Bersarang
+      Digunakan untuk membuat percabangan yang lebih kompleks.
+* b. Statement Switch Case 
+Digunakan untuk memilih statement berdasarkan nilai variabel.
+
+
+BAB VII
+ PERULANGAN
+* Pengertian Dasar Perulangan 
+Perulangan atau looping adalah proses mengulang suatu blok kode program beberapa kali. Perulangan sangat berguna untuk: 
+1. Menghindari penulisan kode yang berulang-ulang
+2. Mengotomatisasi tugas yang perlu dilakukan berkali-kali.
+3.  Meningkatkan efisiensi program.
+*   Jenis-jenis Perulangan dalam PHP 
+   * Perulangan For: Digunakan untuk mengulang blok kode selama kondisi tertentu terpenuhi. 
+   * Perulangan While: Digunakan untuk mengulang blok kode selama kondisi tertentu terpenuhi.
+   *  Perulangan Do While: Digunakan untuk mengulang blok kode setidaknya sekali, dan kemudian mengulanginya selama kondisi tertentu terpenuhi.
+   *  Perulangan Foreach: Digunakan untuk mengulang blok kode pada setiap elemen array.
+
+
+BAB VIII 
+JAVASCRIPT
+
+
+
+
+Apa itu Javascript? Javascript adalah bahasa pemrograman yang digunakan untuk membuat halaman web yang interaktif dan dinamis. Javascript bekerja di hampir semua browser web populer seperti Chrome, Firefox, Safari, dan Edge. 
+* Fungsi Javascript: 
+   * Menambahkan animasi dan interaksi ke halaman web. 
+   * Mengubah konten halaman web secara dinamis. 
+   * Memvalidasi formulir input.
+   *  Mengirim dan menerima data dari server. 
+   * Bekerja dengan API web. 
+* Karakteristik Javascript: 
+   * Bahasa scripting: Javascript adalah bahasa scripting yang berarti dapat disematkan dalam HTML dan diinterpretasikan oleh browser web.
+   *  Dinamis: Javascript adalah bahasa pemrograman dinamis yang berarti tipe data variabel tidak perlu dideklarasikan terlebih dahulu. 
+   * Berbasis objek: Javascript adalah bahasa pemrograman berbasis objek yang berarti memungkinkan Anda membuat dan menggunakan objek
+   * . Multi-platform: Javascript dapat digunakan di berbagai platform seperti web, desktop, dan mobile. 
+* Komponen Javascript: 
+   * Variabel: Untuk menyimpan data. 
+   * Operator: Untuk melakukan operasi matematika dan logika. 
+   * Percabangan: Untuk membuat keputusan. 
+   * Looping: Untuk mengulang blok kode. 
+   * Fungsi: Untuk menyusun kode yang dapat digunakan kembali. 
+   * Alert: Untuk menampilkan kotak pesan. 
+* Contoh Penggunaan Javascript:
+   *  Membuat animasi rollover pada gambar. 
+   * Menampilkan pesan validasi pada formulir.
+   *  Memuat konten baru secara dinamis ke halaman web. 
+   * Membuat game web sederhana.
+
+
+
+
+
+
+BAB IX 
+CSS
+
+
+CSS adalah singkatan dari Cascading Style Sheets, yang merupakan bahasa pemrograman untuk mengatur tampilan suatu dokumen yang ditulis dalam bahasa markup seperti HTML.
+*  Fungsi CSS:
+   *  Mengatur tata letak dan desain halaman web.
+   *  Menentukan jenis dan ukuran huruf. 
+   * Menetapkan warna teks dan latar belakang. 
+   * Menambahkan efek visual seperti animasi dan transisi. 
+   * Meningkatkan estetika dan kemudahan penggunaan website. 
+* Kemampuan CSS: 
+   * Perancangan teks: Mengatur jenis huruf, warna, ukuran, margin, latar belakang, dan spasi. 
+   * Cascading Style Sheets: Menerapkan gaya yang berbeda pada elemen HTML yang berbeda.
+   *  Pemisahan gaya dan konten: Memisahkan struktur dan konten HTML dari presentasi visualnya. 
+*  Cara Pemasangan CSS Pada Dokumen HTML
+   *  External Style Sheet: Menyimpan aturan CSS dalam file terpisah dan menghubungkannya dengan HTML menggunakan tag <link>. 
+   * Inline Style Sheet: Menulis aturan CSS langsung di dalam tag HTML menggunakan atribut style.
+   *  Embedded Style Sheet: Menulis aturan CSS di dalam tag <style> di dalam dokumen HTML.
+* Satuan dalam CSS
+ CSS memiliki berbagai macam satuan untuk menentukan ukuran, yang terbagi menjadi dua kategori: 
+* 1. Satuan Statik: 
+* in: Inchi 
+* cm: Centimeter 
+* mm: Milimeter 
+* pt: Point (1 point = 1/72 inchi) 
+* pc: Pica (1 pica = 12 point) 
+* px: Pixel (satu titik gambar terkecil dalam layar monitor) 
+* Satuan Relatif: 
+* %: Persen 
+* em: Ems (1em = ukuran font yang tengah ada dalam elemen)
+*  ex: X-height suatu font (x-height biasanya setengah ukuran font) 
+* Penulisan CSS Aturan CSS terdiri dari dua bagian:
+*   Selector:
+   *  Biasanya berupa tag HTML, id, atau class. 
+   *  Id menggunakan tanda # di depan nama selector
+   *  Class menggunakan tanda . di depan nama selector.
+* Declaration: 
+Berisi aturan-aturan CSS yang terdiri dari properti dan nilainya yang dipisahkan oleh tanda titik dua. Setiap aturan CSS harus diakhiri dengan tanda titik koma.
+* Selector ID pada CSS 
+   * Sebuah elemen HTML hanya boleh memiliki 1 id.
+   *  Setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut. 
+   * Dapat digunakan sebagai penanda halaman untuk link. 
+   * Digunakan juga untuk Javascript.
+   *  Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class). 
+*  Selector Class pada CSS 
+   * Ditandai dengan tanda .. 
+   * Dapat digunakan untuk memilih elemen HTML dengan class tertentu. 
+   * Lebih mudah digunakan untuk styling elemen yang sama di berbagai halaman.
+*  Properti CSS 
+* color: Warna teks. 
+* font-size: Ukuran font.
+*  background-color: Warna latar belakang. 
+* text-align: Perataan teks. 
+* margin: Jarak antara elemen dan elemen lainnya.
+*  padding: Jarak antara konten elemen dan border. 
+* border: Ketebalan, gaya, dan warna garis tepi elemen.
+*  Pseudo-Class Kelas semu yang dimiliki oleh elemen HTML. Memungkinkan kita mendefinisikan style pada keadaan tertentu dari elemen tersebut. Contoh Pseudo-Class: 
+* :link: Style default pada sebuah link. 
+* :hover: Style ketika kursor mouse berada diatas sebuah link/element.
+*  :active: Style ketika sebuah link di klik.
+*  :visited: Style ketika sebuah link sudah pernah di kunjungi. 
+* :first-child: Memilih elemen pertama dari sebuah parent. 
+* :last-child: Memilih elemen terakhir dari sebuah parent.
+*  :nth-child(n): Memilih elemen ke-(n) dari sebuah parent.
+*   Padding, Margin, dan Border Box 
+* Padding: 
+   * Menentukan jarak komponen body ke border.
+   *  Ukuran jarak bagian dalam border. 
+* Border:
+   *  Garis tepi dari komponen.
+*  Margin: 
+   * Ukuran jarak bagian luar. 
+   * Ukuran jarak sesudah border.
+*  Pen penulisan CSS: 
+   * padding:5px 5px 5px 5px;: Mengatur padding atas, kanan, bawah, dan kiri. 
+   * padding-left:5px;: Mengatur padding bagian kiri.
+   *  border:1px dotted #000000;: Mengatur ketebalan, style, dan warna border.
+   *  border-width:1px;: Mengatur ketebalan border. 
+   * border-style:dotted;: Mengatur jenis border. 
+   * border-color:#FFFFFF;: Mengatur warna border.
+   *  margin:5px 5px 5px 5px;: Mengatur margin atas, kanan, bawah, dan kiri.
+   *  margin-left:5px;: Mengatur margin bagian kiri
+BAB X 
+Membuat Desain Web Responsive Menggunakan CSS
+1. Pengertian Desain Web Responsive Design 
+web responsive adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman berselancar yang optimal dalam berbagai perangkat, baik mobile maupun komputer. Dengan metode ini, website akan secara otomatis menyesuaikan tata letak dan desainnya agar terlihat optimal di berbagai ukuran layar.
+ 2. Manfaat Desain Web Responsive 
+* Meningkatkan pengalaman pengguna (user experience)
+* Meningkatkan SEO (Search Engine Optimization) 
+* Menghemat biaya pengembangan website 
+* Mempermudah pengelolaan website 
+* Meningkatkan kredibilitas website 
+3. Cara Membuat Desain Web Responsive 
+* Media Query: Media query adalah fitur CSS yang memungkinkan Anda untuk mendefinisikan gaya yang berbeda untuk perangkat yang berbeda.
+*  Bootstrap: Bootstrap adalah framework CSS yang populer untuk membuat website responsive dengan mudah. 
+* Foundation: Foundation adalah framework CSS lain yang populer untuk membuat website responsive. Flexbox: Flexbox adalah layout CSS yang memungkinkan Anda untuk mengatur elemen HTML secara fleksibel. 
+* Grid Layout: Grid layout adalah layout CSS yang baru yang memungkinkan Anda untuk membuat layout yang kompleks dengan mudah. 
+4. Contoh Penerapan Desain Web Responsive 
+* Form Responsive: Formulir yang dapat menyesuaikan tata letaknya agar terlihat optimal di berbagai perangkat.
+*  Navigasi Responsive: Navigasi website yang dapat menyesuaikan tata letaknya agar terlihat optimal di berbagai perangkat.
+*  Gambar Responsive: Gambar yang dapat menyesuaikan ukurannya agar terlihat optimal di berbagai perangkat. 
+* Langkah-langkah Pembuatan Desain Web Responsive
+*  Menentukan Tema Website: Tema website yang dipilih akan menentukan desain dan layout website
+*  Membuat Sketsa/Blueprint/Rancangan: Buatlah sketsa atau rancangan halaman web yang akan dibuat. Membuat Website Responsive: Gunakan media query, framework CSS, atau layout CSS untuk membuat website responsive. 
+* Testing: Pastikan website responsive di berbagai perangkat.
+
+
+
+
+
+
+
+
+TERIMAKASIH
